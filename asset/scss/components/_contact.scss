@@ -1,0 +1,23 @@
+/*    CONTACT    */ 
+.contact{
+    &-container{
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+    &-description{
+        text-align: center;
+    }
+    &-content{
+        row-gap:1rem;
+    }
+    &-address{
+        font-size: var(--small-font-size);
+        font-weight: var(--font-bold);
+        color: var(--title-color);
+
+    }
+    &-information{
+        color: var(--text-color);
+        font-weight: var(--font-semi-bold);
+    }
+}

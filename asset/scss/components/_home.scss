@@ -1,0 +1,15 @@
+/*        HOME       */
+.home{
+    &-container{
+        row-gap: 3rem;
+    }
+    &-title{
+        font-size: var(--biggest-font-size);
+        font-weight: var(--font-bold);
+        margin-bottom: var(--mb-0-75);
+        color: var(--title-color);
+    }
+    &-description{
+        margin-bottom:var(--mb-2);
+    }
+}

@@ -1,0 +1,31 @@
+/*  SERVICE   */
+.services{
+    &-container{
+        padding-top: 1rem;
+    }
+    &-data{
+        display: grid;
+        row-gap: 1rem;
+        padding: 2rem 1.5rem;
+        box-shadow: 0 2px 6px hsla(var(--hue), 100%, 15%, 0.15);
+        background-color:var(--container-color);
+        border-radius: 1rem;
+        text-align: center;
+    }
+
+    &-img{
+        width: 180px;
+        justify-self: center;
+        margin-bottom:var(--mb-0-5);
+    }
+
+}
+
+
+
+
+
+
+
+
+
